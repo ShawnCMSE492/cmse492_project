@@ -1,1 +1,9 @@
 # cmse492_project
+
+# Title:
+# Predicting Product Distribution in Biomass Gasification Reactors
+
+# Description:
+# The production of transportation fuels is currently dominated through fossil fuel aquisition and refinement; this methodology is non-renewable and a major contributor toward driving climate change through unmitigated CO2 emissions. One consistent proposal for an alternative is the conversion of discarded biomass feedstock into a sustainable transportation hydrocarbon fuel. This process is often modeled as the complete gasification of biomass feedstock in a CSTR-style reactor; however, traditional chemical engineering methodology to predict reactor product distribution has proven to be cumbersome, complex, and controversial for biomass reactions such as gasification. Instead, researchers/engineers have often utilized experimental data from experimental runs to aid in designing/scaling-up their reactors. However, a more sophisticated approach to this idea involves the usage of a machine learning model to predict gasification reactor output by training on a sufficient set of gasification experimental data utilizing various features such as temperature, equivalence ratio, or others. This project seeks to develop such models and compare their efficiacy alongside data analysis on gasification experimental runs. 
+
+# The project directory structure begins with a README and .gitignore. Followed by a data folder containing both the raw and processed data. A notebook folder as well as an src folder containing preprocessing pipelines, atleast 3 ML models, and evaluation code. Also provided in the project directory are folders for figures, docs, and a requirements text file. Setup instructions include the usage of a Python juypter notebook as well as packages such as Scikitlearn or Keras/TensorFlow. 
